@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>doc/tfs_quotes</file>
+        <file>doc/first_catalog</file>
     </qresource>
 </RCC>

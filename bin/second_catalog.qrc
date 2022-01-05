@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>doc/basic</file>
+        <file>doc/second_catalog</file>
     </qresource>
 </RCC>

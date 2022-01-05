@@ -2,27 +2,13 @@
 
 Storage::Storage(QObject *parent) : QObject(parent)
 {
-    nameList << "Базовые книги"
-                  << "Родовое мессианство"
-                   << "Сборники речей"
-                   << "Сборники цитат"
-                   << "О духовном мире"
-                   << "Прочие..."
-                   << "Речи Отца (eng)(1936-1978)"
-                   <<  "Речи Отца (eng)(1979-1990)"
-                   << "Речи Отца (eng)(1991-2006)"
-                   << "Библия";
+    nameList      << "Первый каталог"
+                  << "Второй каталог"
+                   << "Третий каталог";
 
-    pathList << ":/doc/basic"
-                 << ":/doc/tribal_messianship"
-                 << ":/doc/tfs_rus"
-                 << ":/doc/tfs_quotes"
-                 << ":/doc/spiritual_world"
-                 << ":/doc/others"
-                 << ":/doc/tfs_eng_part_1"
-                 << ":/doc/tfs_eng_part_2"
-                 << ":/doc/tfs_eng_part_3"
-                 << ":/doc/bible";
+    pathList     << ":/doc/first_catalog"
+                 << ":/doc/second_catalog"
+                 << ":/doc/third_rus";
 
     //Грузим из файла названия каталогов и пути к ним
     for(int i = 0; i < pathList.size(); i++)
