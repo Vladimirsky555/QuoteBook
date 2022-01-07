@@ -35,7 +35,6 @@ class SearchWindow : public QWidget
     Quotestorage *storage;//Виджет для копирования цитат из объекта ItemView
     SearchItemsMaker *sim;//Переменная для формирования результата поиска и цитат
 
-
     Ui::SearchWindow *ui;
 
 public:

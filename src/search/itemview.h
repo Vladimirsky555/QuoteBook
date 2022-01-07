@@ -4,6 +4,9 @@
 #include <QWidget>
 #include <QClipboard>
 #include <QTextDocument>
+#include <QFontDialog>
+#include <QMessageBox>
+#include <QBuffer>
 
 #include "data/quoteitem.h"
 #include "helpers/qregexphighlighter.h"
@@ -33,11 +36,12 @@ public:
     ~ItemView();
 
 private slots:
-    void on_btnHide_clicked();
-    void on_btnCopy_clicked();
-    void on_btnText_clicked();
-    void on_btnDel_clicked();
-    void on_btnCopyToWidget_clicked();
+    void chooseFont();
+    void copyToBuffer();
+    void copyToWidget();
+    void deleteItem();
+    void hideItem();
+    void showText();
     void acceptshutdown();//для передачи от осного виджета сигнала закрытия дальше
 
 signals:

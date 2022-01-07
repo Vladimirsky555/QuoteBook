@@ -86,9 +86,8 @@
          <string>...</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normalon>:/images/search_1.png</normalon>
-         </iconset>
+         <iconset resource="../../bin/images.qrc">
+          <normaloff>:/images/search.png</normaloff>:/images/search.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -123,6 +122,16 @@
         </property>
         <property name="text">
          <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../../bin/images.qrc">
+          <normaloff>:/images/list.png</normaloff>:/images/list.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
         </property>
        </widget>
       </item>
@@ -217,14 +226,6 @@
    </property>
    <property name="toolTip">
     <string>Список оставшихся в окне цитат одним текстом</string>
-   </property>
-  </action>
-  <action name="actionQuoteStorage">
-   <property name="text">
-    <string>QuoteStorage</string>
-   </property>
-   <property name="toolTip">
-    <string>Работа с цитатами</string>
    </property>
   </action>
  </widget>

@@ -15,6 +15,8 @@ class Quotestorage : public QWidget
 {
     Q_OBJECT
 
+    QString result;
+
     //Переменная для подсветки
     QRegexpHighlighter *highlighter;
 
@@ -27,6 +29,8 @@ public:
 private slots:
     void on_edtPattern_textChanged(const QString &);
     void shutdown();
+    void chooseFont();
+    void copyToBuffer();
 
 private:
     Ui::Quotestorage *ui;

@@ -24,6 +24,7 @@ public:
 private slots:
     void on_edtPattern_textChanged(const QString &);
     void shutdown();
+    void chooseFont();
 
 private:
     Ui::ItemShow *ui;

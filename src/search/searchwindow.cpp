@@ -11,7 +11,6 @@ SearchWindow::SearchWindow(QWidget *parent) :
     s = new Storage();
     ss = new SearchStorage();
     storage = NULL;
-
     this->resource = true;
 
     //Подключим ко всем toolButton экшены

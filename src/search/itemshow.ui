@@ -47,10 +47,41 @@
      <item>
       <widget class="QLineEdit" name="edtPattern"/>
      </item>
+     <item>
+      <widget class="QToolButton" name="btnFont">
+       <property name="minimumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../../bin/images.qrc">
+         <normaloff>:/images/font.png</normaloff>:/images/font.png</iconset>
+       </property>
+      </widget>
+     </item>
     </layout>
    </item>
   </layout>
+  <action name="actionFont">
+   <property name="icon">
+    <iconset resource="../../bin/images.qrc">
+     <normaloff>:/images/font.png</normaloff>:/images/font.png</iconset>
+   </property>
+   <property name="text">
+    <string>Font</string>
+   </property>
+   <property name="toolTip">
+    <string>Выбор шрифта</string>
+   </property>
+  </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="../../bin/images.qrc"/>
+ </resources>
  <connections/>
 </ui>
